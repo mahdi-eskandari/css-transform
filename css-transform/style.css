@@ -1,0 +1,302 @@
+body {
+    background-color: rgb(188, 252, 225);
+}
+
+section {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin-top: 10px;
+}
+
+section > div {
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 {
+    background-color: rgb(189, 189, 179);
+    width: 90px;
+    height: 90px
+}
+
+.d-1 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-1:hover {
+    transform: rotate(45deg);
+}
+
+.d-2 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-2:hover {
+    transform: scale(1, 0.6);
+}
+
+.d-3 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-3:hover {
+    transform: scale(0.6, 1)
+}
+
+.d-4 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-4:hover {
+    transform: scale(1.5)
+}
+
+.d-5 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-5:hover {
+    transform: scale(2, 1)
+}
+
+.d-6 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-6:hover {
+    transform: scale(1, 2)
+}
+
+.d-7 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-7:hover {
+    transform: skew(20deg, 20deg) rotate(-20deg);
+}
+
+.d-8 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-8:hover {
+    transform: skew(20deg, 20deg) rotate(20deg);
+}
+
+.d-9 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-9:hover {
+    transform:translate(30px, 30px);
+}
+
+.d-10 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-10:hover {
+    transform:translate(40px);
+}
+
+.d-11 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-11:hover {
+    transform:translate(0px, 40px);
+}
+
+.d-12 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-12:hover {
+    transform: skew(20deg, 20deg) rotate(20deg) scale(1.6) translate(18px, -20px);
+}
+
+.d-13 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-13:hover {
+    transform:perspective(100px) rotateX(60deg);
+}
+
+.d-14 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-14:hover {
+    transform:perspective(100px) rotatey(60deg);
+}
+
+.d-15 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-15:hover {
+    transform-origin: top right;
+    transform: rotate(45deg);
+}
+
+
+.d-16 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-16:hover {
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+
+.d-17 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-17:hover {
+    transform-origin: bottom;
+    transform: perspective(300px) rotateX(40deg);
+}
+
+.d-18 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-18:hover {
+    transform-origin: top;
+    transform: perspective(220px) rotateX(65deg);
+}
+
+.d-19 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-19:hover {
+    transform-origin: left;
+    transform: perspective(300px) rotatey(45deg);
+}
+
+.d-20 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-20:hover {
+    transform-origin: right;
+    transform: perspective(220px) rotatey(60deg);
+}
+
+.d-21 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-21:hover {
+    transform-origin: top right;
+    transform:scale(1.5);
+}
+
+.d-22 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-22:hover {
+    transform-origin: bottom left;
+    transform:scale(1.5);
+}
+
+.d-23 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-23:hover {
+    transform-origin: right;
+    transform:scalex(2);
+}
+
+.d-24 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-24:hover {
+    transform-origin: left;
+    transform:scalex(2);
+}
+
+
+.d-25 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-25:hover {
+    transform-origin: top;
+    transform:scaley(2);
+}
+
+
+.d-26 {
+    background-color: rgb(4, 241, 162, 70%);
+    width: 90px;
+    height: 90px;
+    transition: 0.5s;
+}
+.d-26:hover {
+    transform-origin: bottom;
+    transform:scaley(2);
+}
